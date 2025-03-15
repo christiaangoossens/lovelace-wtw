@@ -1,4 +1,5 @@
 import { LitElement, html, css } from "lit-element";
+import bgImage from './wtw_heat.png';
 
 class WTWCard extends LitElement {
   static get properties() {
@@ -149,7 +150,7 @@ class WTWCard extends LitElement {
         padding: 10px;
       }
       .bg {
-        background-image: url(/local/lovelace-wtw/wtw_heat.png);
+        background-image: url(${bgImage});
         height: 200px;
         background-size: contain;
         background-repeat: no-repeat;

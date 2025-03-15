@@ -4,7 +4,7 @@
   "description": "Use https://github.com/LukasdeBoer/esp8266-whr930-mqtt to connect your WHR930 to Homeassistant and then use this lovelace card to visualize your data!",
   "main": "dist/wtw-cards.js",
   "scripts": {
-    "build": "esbuild wtw-cards.js --bundle --minify --outfile=dist/lovelace-wtw.js && cp wtw_heat.png dist/"
+    "build": "esbuild wtw-cards.js --bundle --minify --loader:.png=dataurl --outfile=dist/lovelace-wtw.js"
   },
   "dependencies": {
     "lit-element": "2.0.1"
