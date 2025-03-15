@@ -1,6 +1,5 @@
 {
-    "name": "Lovelace WTW card",
+    "name": "WTW (WHR 930) card",
     "filename": "lovelace-wtw.js",
-    "render_readme": true,
-    "hide_default_branch": true
+    "render_readme": true
   }
