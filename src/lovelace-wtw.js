@@ -227,4 +227,14 @@ class WTWCard extends LitElement {
     `;
   }
 }
+
+console.info("Loaded WTW card.");
+
+window.customCards = window.customCards || [];
+window.customCards.push({
+  type: 'wtw-card',
+  name: 'WTW Card',
+  description: 'WTW Card (specifically works with WHR 930 entities)',
+});
+
 customElements.define("wtw-card", WTWCard);
