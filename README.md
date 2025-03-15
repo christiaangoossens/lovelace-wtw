@@ -16,3 +16,9 @@ Use https://github.com/LukasdeBoer/esp8266-whr930-mqtt to connect your WHR930 to
 3. Add a card of type `type: 'custom:wtw-card'` (YAML) or 'WTW Card' (UI picker) to your dashboard.
 4. ???
 5. Profit!
+
+# Changes to the original by timjong93
+
+- Added support for installing through HACS
+- Added dark mode compatible version of the background
+- Replaced the mode indicator (fans in the middle) with just a number for better readability.
