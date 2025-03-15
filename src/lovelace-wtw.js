@@ -1,4 +1,4 @@
-import { LitElement, html, css } from "lit-element";
+import { LitElement, html, css, unsafeCSS } from "lit-element";
 import bgImage from './wtw_heat.png';
 
 class WTWCard extends LitElement {
@@ -150,7 +150,7 @@ class WTWCard extends LitElement {
         padding: 10px;
       }
       .bg {
-        background-image: url("${bgImage}");
+        background-image: url("${unsafeCSS(bgImage)}");
         height: 200px;
         background-size: contain;
         background-repeat: no-repeat;
