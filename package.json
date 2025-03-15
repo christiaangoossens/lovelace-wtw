@@ -1,6 +1,6 @@
 {
   "name": "lovelace-wtw",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Lovelace WTW card",
   "main": "lovelace-wtw.js",
   "scripts": {
