@@ -150,7 +150,7 @@ class WTWCard extends LitElement {
         padding: 10px;
       }
       .bg {
-        background-image: url(${bgImage});
+        background-image: url("${bgImage}");
         height: 200px;
         background-size: contain;
         background-repeat: no-repeat;
